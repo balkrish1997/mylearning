@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <h1>Registration Form</h1>
+        <form >
+            <label for="fname">FullName</label><br>
+            <input type="text" id="fname" name="uname" required ><br>
+            <label for="mail">Mail</label><br>
+            <input type="email" id="mail" name="uemail" required><br>
+            <label for="pass">Password</label><br>
+            <input type="password" id="pass" name="upass" required><br>
+            <label for="age">Age</label><br>
+            <input type="number" id="age" name="uage" required><br>
+            <input type="radio" name="gender" value="male"> Male
+           <input type="radio" name="gender" value="female"> Female<br>
+            <label for="course">Courses</label><br>
+            <select>
+             <option value="React" name="React">React</option>
+             <option value="Angular" name="Angular">Angular</option>
+             <option value="Java" name="Java">Java</option>
+             <option value="Python" name="Python">Python</option>
+            </select><br>
+            <label for="course">Elective</label><br>
+            <input type="checkbox">AWS
+            <input type="checkbox">Github
+            <input type="checkbox">Docker<br>
+            <label for="address">Address</label><br>
+            <textarea id="address" name="Address" rows="4" cols="50"></textarea><br><br>
+            <label for="pdf">Upload</label><br>
+            <input type="file" id="pdf" name="pdf" accept="pdf/*" required><br><br>
+          <input type="submit" value="Submit Here">
+          </form>  
+</body>
+</html>
