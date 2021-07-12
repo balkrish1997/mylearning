@@ -1,6 +1,16 @@
 <html>
 <head>
     <title>My Resume</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 5px;
+          text-align: left;
+        }
+        </style>
 </head>
 <body>
     <!---Outer Div Total Box---->
@@ -31,17 +41,33 @@
             <!--3.Education---->
             <div>
                 <h2>Education</h2>
-                <div>
-                    <h3>Bachelors Degree College , Location</h3>
-                    <h5>MONTH 1986 - MONTH 1990</h5>
-                    <p>I completed my degree software engineering and computation from anna university with an aggregate of 9.0 </p>
-                </div>
-                <div>
-                    <h3>Bachelors Degree College , Location</h3>
-                    <h5>MONTH 1986 - MONTH 1990</h5>
-                    <p >I completed my degree software engineering and computation from xyz university with an aggregate of 8.5 cgpa out of 10.</p>
-                </div>
-                
+                <table style="width:100%">
+                    <tr>
+                      <th>Sno</th>
+                      <th>Year</th>
+                      <th>University/Board</th>
+                      <th>Percentage</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>2019</td>
+                      <td>Mahindra College of Engineering, Salem</td>
+                      <td>82%</td>
+                      </tr>
+                      <tr>
+                      <td>2</td>
+                      <td>2015</td>
+                      <td>Sri Gayathri Higher Secondary School, Salem</td>
+                      <td>93%</td>
+                      </tr>
+                      <tr>
+                      <td>3</td>
+                      <td>2013</td>
+                      <td>Sri Gayathri Higher Secondary School, Salem</td>
+                      <td>88%</td>
+                      </tr>
+                  </table><br><br>
+                <a href="contact.html" ><button type="button";align-items="center">Contact me</button></a>
             </div>
             <!--Project---->
             <div text-align="justify">
@@ -51,6 +77,7 @@
                 <p>Here an RFID tag is used which is indirectly connected to the RFID reader using the inductive coupling method. As the tag or the card is swiped against the reader, the tag receives a carrier signal from the reader and in turn modulates the carrier signal and sends it back. The reader receives this modulated signal and sends this data to the microcontroller. The microcontroller compares this data with the existing data and on pressing the status push button, the status of the cardholder is shown on the display, indicating the attendance of the cardholder.</p>
                 <a href="project.html">click to know more</a>
             </div>
+
         </div>
        <!--1.LeftSide Ends--->
       <!---Right side starts-->
